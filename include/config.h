@@ -40,10 +40,11 @@
 #define ENC_SCL_PIN 22
 #define ENC_SDA_PIN 21
 
-#define BASE_ENC_ADDR
-#define SHOULDER_ENC_ADDR
-#define ELBOW_ENC_ADDR
-#define WRIST_END_ADDR
+#define BASE_ENC_ADDR 0x20
+#define SHOULDER_ENC_ADDR 0x21
+#define ELBOW_ENC_ADDR 0x22
+#define WRIST_ENC_ADDR 0x23
+#define START_REGISTER 0X10
 
 // Arm initialisers
 
